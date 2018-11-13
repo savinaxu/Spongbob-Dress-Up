@@ -1,0 +1,76 @@
+/*
+  Header
+*/
+
+.ui-loader {
+    display: none !important;
+}
+
+h1 {
+    font-family: 'Spicy Rice', cursive;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+/*
+  Content
+*/
+
+.flex {
+    display: flex;
+}
+
+.items {
+    margin-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    height: 100%;
+}
+
+#spongebob {
+    margin: 0 auto;
+    display: block;
+}
+
+/*
+  Footer
+*/
+
+.social {
+    display: block;
+}
+
+.social a {
+    font-size: 18px;
+    margin: 0 8px;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.social a:hover {
+    color: #666;
+}
+
+.footer {
+    margin-top: 50px;
+    background: #111;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
